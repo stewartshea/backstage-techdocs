@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: runwhen-sandbox-cheatsheet
+  description: The place for all the helpful sandbox troubleshooting commands
+  labels:
+    runwhen.com/component: runwhen-local
+  metadata:
+    annotations:
+      backstage.io/techdocs-ref: dir:.
+  tags:
+    - troubleshooting
+    - runwhen
+  links:
+    - url: https://runwhen-local.sandbox.runwhen.com/
+      title: RunWhen Local Cheat Sheet
+      icon: dashboard
+      type: cheatsheet
+spec:
+  type: cheatsheet
+  lifecycle: sandbox
+  owner: runwhen-team
+  system: sandbox
