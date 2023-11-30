@@ -5,9 +5,8 @@ metadata:
   description: The place for all the helpful sandbox troubleshooting commands
   labels:
     runwhen.com/component: runwhen-local
-  metadata:
-    annotations:
-      backstage.io/techdocs-ref: dir:.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   tags:
     - troubleshooting
     - runwhen
